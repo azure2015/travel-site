@@ -11,6 +11,16 @@
     
     }
 
+    &--gutters-large {
+        margin-right: -100px;
+    
+    }
+
+    &--gutters-large > div {
+        padding-right: 100px;
+    
+    }
+
     &__b-margin-until-medium {
         margin-bottom: 1rem;
     }
@@ -28,6 +38,11 @@
 
         &__medium-4--large {
             width: 37%;
+        }
+
+        &__medium-6 {
+            float: left;
+            width: 50%;
         }
     
         &__medium-8 {
